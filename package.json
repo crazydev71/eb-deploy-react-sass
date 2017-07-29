@@ -19,8 +19,9 @@
     "create-react-app-sass": "^1.1.0"
   },
   "scripts": {
+    "serve": "react-scripts-with-sass start",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts-with-sass build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
